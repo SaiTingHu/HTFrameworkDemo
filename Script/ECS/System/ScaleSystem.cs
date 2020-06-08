@@ -22,7 +22,7 @@ namespace HT.Framework.Demo
             {
                 if (entity.IsExistOrder(scaleOrder))
                 {
-                    ScaleComponent component = entity[typeof(ScaleComponent)] as ScaleComponent;
+                    ScaleComponent component = entity.Component<ScaleComponent>();
                     entity.transform.localScale += entity.transform.localScale * component.Speed * component.Direction * Time.deltaTime;
 
                     if (component.Direction == 1)

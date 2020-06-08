@@ -21,7 +21,7 @@ namespace HT.Framework.Demo
             {
                 if (entity.IsExistOrder(rotateOrder))
                 {
-                    RotateComponent component = entity[typeof(RotateComponent)] as RotateComponent;
+                    RotateComponent component = entity.Component<RotateComponent>();
                     entity.transform.Rotate(component.Axle, component.Speed);
                 }
             }
