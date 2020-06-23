@@ -8,7 +8,7 @@ HTFramework的Demo模块，必须依赖于HTFramework主框架使用。
 
 - .NET API版本：4.x。
 
-- [HTFramework](https://github.com/SaiTingHu/HTFramework)。
+- [HTFramework(Latest version)](https://github.com/SaiTingHu/HTFramework)。
 
 ## 使用方法
 
