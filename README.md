@@ -1,6 +1,6 @@
 # Unity HTFramework Demo
 
-HTFramework的Demo模块，必须依赖于HTFramework主框架使用。
+HTFramework的Demo模块，必须依赖于HTFramework主框架使用（注意：Demo只用于编辑器测试用，不能直接用于发布场景）。
 
 ## 环境
 
