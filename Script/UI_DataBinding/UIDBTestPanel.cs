@@ -18,6 +18,7 @@ namespace HT.Framework.Demo
         [ObjectPath("TextPower"), DataBinding("Power")] private Text _textPower;
         [ObjectPath("ToggleIsGod"), DataBinding("IsGod")] private Toggle _toggleIsGod;
         [ObjectPath("ButtonIsGod"), DataBinding("IsGod")] private Button _buttonIsGod;
+        [ObjectPath("DropdownRace"), DataBinding("Race")] private Dropdown _dropdownRace;
 
         [ObjectPath("PrintButton")] private Button _printButton = null;
         [ObjectPath("ResetButton")] private Button _resetButton = null;
@@ -35,6 +36,7 @@ namespace HT.Framework.Demo
                 Log.Info(Data.Age);
                 Log.Info(Data.Power);
                 Log.Info(Data.IsGod);
+                Log.Info(Data.Race.Value + "." + Data.Race.ValueString);
             });
             _resetButton.onClick.AddListener(() =>
             {
@@ -42,6 +44,7 @@ namespace HT.Framework.Demo
                 Data.Age.Value = 30;
                 Data.Power.Value = 0.5f;
                 Data.IsGod.Value = false;
+                Data.Race.Value = 0;
             });
         }
     }
@@ -51,9 +54,25 @@ namespace HT.Framework.Demo
     /// </summary>
     public class TestData
     {
+        /// <summary>
+        /// 姓名
+        /// </summary>
         public BindableString Name;
+        /// <summary>
+        /// 年龄
+        /// </summary>
         public BindableInt Age;
+        /// <summary>
+        /// 力量
+        /// </summary>
         public BindableFloat Power;
+        /// <summary>
+        /// 是否是神级角色
+        /// </summary>
         public BindableBool IsGod;
+        /// <summary>
+        /// 种族
+        /// </summary>
+        public BindableSelectable Race = new BindableSelectable(new string[] { "人族", "魔族", "神族", "龙族" });
     }
 }
