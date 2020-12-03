@@ -7,19 +7,13 @@ namespace HT.Framework.Demo
     public class Run : FiniteStateBase
     {
         /// <summary>
-        /// 初始化
-        /// </summary>
-        public override void OnInit()
-        {
-
-        }
-
-        /// <summary>
         /// 进入状态
         /// </summary>
         /// <param name="lastState">上一个离开的状态</param>
         public override void OnEnter(FiniteStateBase lastState)
         {
+            base.OnEnter(lastState);
+
             (StateMachine.Name + "进入运转模式！").Info();
         }
 
@@ -29,15 +23,9 @@ namespace HT.Framework.Demo
         /// <param name="nextState">下一个进入的状态</param>
         public override void OnLeave(FiniteStateBase nextState)
         {
+            base.OnEnter(nextState);
+
             (StateMachine.Name + "退出运转模式！").Info();
-        }
-
-        /// <summary>
-        /// 切换状态的动机
-        /// </summary>
-        public override void OnReason()
-        {
-
         }
 
         /// <summary>
@@ -45,15 +33,9 @@ namespace HT.Framework.Demo
         /// </summary>
         public override void OnUpdate()
         {
+            base.OnUpdate();
+
             (StateMachine.Name + "运转中！").Info();
-        }
-
-        /// <summary>
-        /// 状态终结
-        /// </summary>
-        public override void OnTermination()
-        {
-
         }
     }
 }

@@ -16,23 +16,6 @@ namespace HT.Framework.Demo
         /// </summary>
         public List<Level> Levels = new List<Level>();
 
-        /// <summary>
-        /// 通过Json数据填充数据集
-        /// </summary>
-        public override void Fill(JsonData data)
-        {
-
-        }
-
-        /// <summary>
-        /// 将数据集打包为Json数据
-        /// </summary>
-        public override JsonData Pack()
-        {
-            JsonData data = new JsonData();
-            return data;
-        }
-
         [Serializable]
         public sealed class Level
         {

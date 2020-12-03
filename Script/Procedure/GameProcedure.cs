@@ -14,6 +14,8 @@ namespace HT.Framework.Demo
         /// </summary>
         public override void OnInit()
         {
+            base.OnInit();
+
             _gamePanel = GameObject.Find("UI").FindChildren("GamePanel");
             _gamePanel.FindChildren("LogoutButton").rectTransform().AddEventListener(OnLogout);
             _gamePanel.FindChildren("BackButton").rectTransform().AddEventListener(OnBack);
@@ -35,6 +37,8 @@ namespace HT.Framework.Demo
         /// <param name="lastProcedure">上一个离开的流程</param>
         public override void OnEnter(ProcedureBase lastProcedure)
         {
+            base.OnEnter(lastProcedure);
+
             _gamePanel.SetActive(true);
         }
 
@@ -44,23 +48,9 @@ namespace HT.Framework.Demo
         /// <param name="nextProcedure">下一个进入的流程</param>
         public override void OnLeave(ProcedureBase nextProcedure)
         {
+            base.OnLeave(nextProcedure);
+
             _gamePanel.SetActive(false);
-        }
-
-        /// <summary>
-        /// 流程帧刷新
-        /// </summary>
-        public override void OnUpdate()
-        {
-
-        }
-
-        /// <summary>
-        /// 流程帧刷新（秒）
-        /// </summary>
-        public override void OnUpdateSecond()
-        {
-
         }
     }
 }

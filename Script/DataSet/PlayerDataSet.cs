@@ -23,23 +23,6 @@ namespace HT.Framework.Demo
         /// 不需要序列化保存的，定义为属性
         /// </summary>
         public int CurrentLevel { get; set; } = 0;
-
-        /// <summary>
-        /// 通过Json数据填充数据集
-        /// </summary>
-        public override void Fill(JsonData data)
-        {
-
-        }
-
-        /// <summary>
-        /// 将数据集打包为Json数据
-        /// </summary>
-        public override JsonData Pack()
-        {
-            JsonData data = new JsonData();
-            return data;
-        }
     }
 
     public enum Sex
