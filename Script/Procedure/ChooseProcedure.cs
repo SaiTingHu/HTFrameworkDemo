@@ -16,7 +16,7 @@ namespace HT.Framework.Demo
         {
             base.OnInit();
 
-            _choosePanel = GameObject.Find("UI").FindChildren("ChoosePanel");
+            _choosePanel = GameObject.Find("TestUI").FindChildren("ChoosePanel");
             _choosePanel.FindChildren("Role1Button").rectTransform().AddEventListener(OnChooseRole);
             _choosePanel.FindChildren("Role2Button").rectTransform().AddEventListener(OnChooseRole);
         }

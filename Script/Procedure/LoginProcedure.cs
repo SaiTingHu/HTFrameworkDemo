@@ -16,7 +16,7 @@ namespace HT.Framework.Demo
         {
             base.OnInit();
 
-            _loginPanel = GameObject.Find("UI").FindChildren("LoginPanel");
+            _loginPanel = GameObject.Find("TestUI").FindChildren("LoginPanel");
             _loginPanel.FindChildren("LoginButton").rectTransform().AddEventListener(OnLogin);
         }
 

@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 1471606781}
   - component: {fileID: 1471606780}
   m_Layer: 5
-  m_Name: UI
+  m_Name: TestUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1313,6 +1313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ActivatedProcedures.Array.data[2]
       value: HT.Framework.Demo.GameProcedure
+      objectReference: {fileID: 0}
+    - target: {fileID: 4292849675555829366, guid: d09e5ea50d2aa0841ab072ac17fbd207,
+        type: 3}
+      propertyPath: IsEnableDebugger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
