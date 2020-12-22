@@ -4,7 +4,7 @@ HTFramework的Demo模块，必须依赖于HTFramework主框架使用（注意：Demo只用于编辑器测
 
 ## 环境
 
-- Unity版本：2018.3.0及以上。
+- Unity版本：2018.4.0及以上。
 
 - .NET API版本：4.x。
 
