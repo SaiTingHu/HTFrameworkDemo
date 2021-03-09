@@ -81,9 +81,9 @@ namespace HT.Framework.Demo
         /// <summary>
         /// 恢复模块
         /// </summary>
-        public override void OnUnPause()
+        public override void OnResume()
         {
-            base.OnUnPause();
+            base.OnResume();
         }
     }
 }
