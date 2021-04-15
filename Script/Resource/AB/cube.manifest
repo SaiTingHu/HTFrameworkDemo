@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1934048627
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 69e80120b6a6bcde2991bdc2ced394d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43917c7e82ed3ae0a408b3ea37ec80f7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/HTFrameworkDemo/Script/Resource/Cube.prefab
+Dependencies:
+- E:/Hutao/UnityProject 2018.4.0/HTFramework/AssetBundles/StandaloneWindows/greenmat

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 295502593
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ee455e2bd4253d446087ab86afc79622
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 60fef5ad0a4038542d2122e46dcc34a2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab
+Dependencies:
+- E:/Hutao/UnityProject 2018.4.0/HTFramework/AssetBundles/StandaloneWindows/redmat

@@ -7,9 +7,21 @@ namespace HT.Framework.Demo
     /// </summary>
     public class ResourceTest : MonoBehaviour
     {
+        private PrefabInfo _cube = new PrefabInfo("cube", "Assets/HTFrameworkDemo/Script/Resource/Cube.prefab", null);
+        private PrefabInfo _capsule = new PrefabInfo("capsule", "Assets/HTFrameworkDemo/Script/Resource/Capsule.prefab", null);
+        private PrefabInfo _sphere = new PrefabInfo("sphere", "Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab", null);
+
+        private void Awake()
+        {
+            Main.m_Resource.SetAssetBundlePath(Application.dataPath + "/HTFrameworkDemo/Script/Resource/AB/");
+        }
+
         private void Start()
         {
-            Main.m_Resource.LoadPrefab(new PrefabInfo("test", "Assets/HTFrameworkDemo/Script/Resource/Cube.prefab", ""), null, OnLoading, OnLoadDone);
+            //加载三个预制体，他们关联的AB包会被自动加载
+            Main.m_Resource.LoadPrefab(_cube, null, OnLoading, OnLoadDone);
+            Main.m_Resource.LoadPrefab(_capsule, null, OnLoading, OnLoadDone);
+            Main.m_Resource.LoadPrefab(_sphere, null, OnLoading, OnLoadDone);
         }
 
         private void OnLoadDone(GameObject arg)
