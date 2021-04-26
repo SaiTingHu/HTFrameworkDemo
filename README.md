@@ -1,19 +1,19 @@
-# Unity HTFramework Demo
+ï»¿# Unity HTFramework Demo
 
-HTFrameworkµÄDemoÄ£¿é£¬±ØÐëÒÀÀµÓÚHTFrameworkÖ÷¿ò¼ÜÊ¹ÓÃ£¨×¢Òâ£ºDemoÖ»ÓÃÓÚ±à¼­Æ÷²âÊÔÓÃ£¬²»ÄÜÖ±½ÓÓÃÓÚ·¢²¼³¡¾°£©¡£
+HTFrameworkçš„Demoæ¨¡å—ï¼Œå¿…é¡»ä¾èµ–äºŽHTFrameworkä¸»æ¡†æž¶ä½¿ç”¨ï¼ˆæ³¨æ„ï¼šDemoåªç”¨äºŽç¼–è¾‘å™¨æµ‹è¯•ç”¨ï¼Œä¸èƒ½ç›´æŽ¥ç”¨äºŽå‘å¸ƒåœºæ™¯ï¼‰ã€‚
 
-## »·¾³
+## çŽ¯å¢ƒ
 
-- Unity°æ±¾£º2018.4.0¼°ÒÔÉÏ¡£
+- Unityç‰ˆæœ¬ï¼š2018.4.0åŠä»¥ä¸Šã€‚
 
-- .NET API°æ±¾£º4.x¡£
+- .NET APIç‰ˆæœ¬ï¼š4.xã€‚
 
-- [HTFramework(Latest version)](https://github.com/SaiTingHu/HTFramework)¡£
+- [HTFramework(Latest version)](https://github.com/SaiTingHu/HTFramework)ã€‚
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 
-- 1.À­È¡¿ò¼Üµ½ÏîÄ¿ÖÐµÄAssetsÎÄ¼þ¼ÐÏÂ£¨Assets/HTFramework/£©£¬»òÒÔÌí¼Ó×ÓÄ£¿éµÄÐÎÊ½¡£
+- 1.æ‹‰å–æ¡†æž¶åˆ°é¡¹ç›®ä¸­çš„Assetsæ–‡ä»¶å¤¹ä¸‹ï¼ˆAssets/HTFramework/ï¼‰ï¼Œæˆ–ä»¥æ·»åŠ å­æ¨¡å—çš„å½¢å¼ã€‚
 
-- 2.À­È¡±¾Ä£¿éµ½ÏîÄ¿ÖÐµÄAssetsÎÄ¼þ¼ÐÏÂ£¨Assets/HTFrameworkDemo/£©£¬»òÒÔÌí¼Ó×ÓÄ£¿éµÄÐÎÊ½¡£
+- 2.æ‹‰å–æœ¬æ¨¡å—åˆ°é¡¹ç›®ä¸­çš„Assetsæ–‡ä»¶å¤¹ä¸‹ï¼ˆAssets/HTFrameworkDemo/ï¼‰ï¼Œæˆ–ä»¥æ·»åŠ å­æ¨¡å—çš„å½¢å¼ã€‚
 
-- 3.´ò¿ª¸÷¸öDemo³¡¾°£¬Ö±½ÓÔËÐÐ¡£
+- 3.æ‰“å¼€å„ä¸ªDemoåœºæ™¯ï¼Œç›´æŽ¥è¿è¡Œã€‚
