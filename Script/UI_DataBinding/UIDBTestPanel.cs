@@ -10,15 +10,15 @@ namespace HT.Framework.Demo
     {
         public TestData Data { get; set; }
 
-        [ObjectPath("InputFieldName"), DataBinding("Name")] private InputField _inputFieldName;
-        [ObjectPath("TextName"), DataBinding("Name")] private Text _textName;
-        [ObjectPath("InputFieldAge"), DataBinding("Age")] private InputField _inputFieldAge;
-        [ObjectPath("TextAge"), DataBinding("Age")] private Text _textAge;
-        [ObjectPath("SliderPower"), DataBinding("Power")] private Slider _sliderPower;
-        [ObjectPath("TextPower"), DataBinding("Power")] private Text _textPower;
-        [ObjectPath("ToggleIsGod"), DataBinding("IsGod")] private Toggle _toggleIsGod;
-        [ObjectPath("ButtonIsGod"), DataBinding("IsGod")] private Button _buttonIsGod;
-        [ObjectPath("DropdownRace"), DataBinding("Race")] private Dropdown _dropdownRace;
+        [ObjectPath("InputFieldName"), DataBinding(nameof(TestData.Name))] private InputField _inputFieldName;
+        [ObjectPath("TextName"), DataBinding(nameof(TestData.Name))] private Text _textName;
+        [ObjectPath("InputFieldAge"), DataBinding(nameof(TestData.Age))] private InputField _inputFieldAge;
+        [ObjectPath("TextAge"), DataBinding(nameof(TestData.Age))] private Text _textAge;
+        [ObjectPath("SliderPower"), DataBinding(nameof(TestData.Power))] private Slider _sliderPower;
+        [ObjectPath("TextPower"), DataBinding(nameof(TestData.Power))] private Text _textPower;
+        [ObjectPath("ToggleIsGod"), DataBinding(nameof(TestData.IsGod))] private Toggle _toggleIsGod;
+        [ObjectPath("ButtonIsGod"), DataBinding(nameof(TestData.IsGod))] private Button _buttonIsGod;
+        [ObjectPath("DropdownRace"), DataBinding(nameof(TestData.Race))] private Dropdown _dropdownRace;
 
         [ObjectPath("PrintButton")] private Button _printButton = null;
         [ObjectPath("ResetButton")] private Button _resetButton = null;
