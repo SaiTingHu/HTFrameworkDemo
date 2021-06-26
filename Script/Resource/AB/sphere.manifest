@@ -3,7 +3,7 @@ CRC: 295502593
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ee455e2bd4253d446087ab86afc79622
+    Hash: f9e3e69c4fb472c48ad152caeba2c739
   TypeTreeHash:
     serializedVersion: 2
     Hash: 60fef5ad0a4038542d2122e46dcc34a2
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab
 Dependencies:
-- E:/Hutao/UnityProject 2018.4.0/HTFramework/AssetBundles/StandaloneWindows/redmat
+- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/redmat

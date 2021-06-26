@@ -9,6 +9,7 @@ namespace HT.Framework.Demo
     /// </summary>
     public class ResourceTest : MonoBehaviour
     {
+        private SceneInfo _scene = new SceneInfo("scene", "TestScene");
         private PrefabInfo _cube = new PrefabInfo("cube", "Assets/HTFrameworkDemo/Script/Resource/Cube.prefab", null);
         private PrefabInfo _capsule = new PrefabInfo("capsule", "Assets/HTFrameworkDemo/Script/Resource/Capsule.prefab", null);
         private PrefabInfo _sphere = new PrefabInfo("sphere", "Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab", null);
@@ -23,6 +24,8 @@ namespace HT.Framework.Demo
 
         private void Start()
         {
+            //加载场景
+            Main.m_Resource.LoadScene(_scene);
             //加载三个预制体，他们关联的AB包会被自动加载
             Main.m_Resource.LoadPrefab(_cube, null, OnLoading, OnLoadDone);
             Main.m_Resource.LoadPrefab(_capsule, null, OnLoading, OnLoadDone);

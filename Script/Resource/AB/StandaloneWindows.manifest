@@ -1,25 +1,28 @@
 ManifestFileVersion: 0
-CRC: 1055856353
+CRC: 3326209060
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: cube
-      Dependencies:
-        Dependency_0: greenmat
-    Info_1:
       Name: bluemat
       Dependencies: {}
-    Info_2:
+    Info_1:
       Name: redmat
       Dependencies: {}
-    Info_3:
+    Info_2:
       Name: greenmat
       Dependencies: {}
-    Info_4:
+    Info_3:
       Name: capsule
       Dependencies:
         Dependency_0: bluemat
-    Info_5:
+    Info_4:
       Name: sphere
       Dependencies:
         Dependency_0: redmat
+    Info_5:
+      Name: cube
+      Dependencies:
+        Dependency_0: greenmat
+    Info_6:
+      Name: scene
+      Dependencies: {}

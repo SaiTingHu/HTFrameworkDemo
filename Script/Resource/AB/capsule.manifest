@@ -3,7 +3,7 @@ CRC: 3339787208
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f75b4c3ba1b21bb9649cb1ff7908abf4
+    Hash: ebeeff9eb2a0b5f1da70072096e85999
   TypeTreeHash:
     serializedVersion: 2
     Hash: b3ba791bb7d378b5189369ad535d14a7
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Capsule.prefab
 Dependencies:
-- E:/Hutao/UnityProject 2018.4.0/HTFramework/AssetBundles/StandaloneWindows/bluemat
+- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/bluemat

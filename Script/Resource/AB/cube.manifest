@@ -3,7 +3,7 @@ CRC: 1934048627
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 69e80120b6a6bcde2991bdc2ced394d5
+    Hash: 030de488c625eeb5cb271f675562f8be
   TypeTreeHash:
     serializedVersion: 2
     Hash: 43917c7e82ed3ae0a408b3ea37ec80f7
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Cube.prefab
 Dependencies:
-- E:/Hutao/UnityProject 2018.4.0/HTFramework/AssetBundles/StandaloneWindows/greenmat
+- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/greenmat
