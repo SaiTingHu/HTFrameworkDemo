@@ -230,5 +230,10 @@ PrefabInstance:
       propertyPath: Distance
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4292849675555829366, guid: d09e5ea50d2aa0841ab072ac17fbd207,
+        type: 3}
+      propertyPath: IsEnableDebugger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}

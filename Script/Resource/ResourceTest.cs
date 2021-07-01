@@ -9,7 +9,7 @@ namespace HT.Framework.Demo
     /// </summary>
     public class ResourceTest : MonoBehaviour
     {
-        private SceneInfo _scene = new SceneInfo("scene", "TestScene");
+        private SceneInfo _scene = new SceneInfo("scene", "Assets/HTFrameworkDemo/Script/Resource/TestScene.unity", "TestScene");
         private PrefabInfo _cube = new PrefabInfo("cube", "Assets/HTFrameworkDemo/Script/Resource/Cube.prefab", null);
         private PrefabInfo _capsule = new PrefabInfo("capsule", "Assets/HTFrameworkDemo/Script/Resource/Capsule.prefab", null);
         private PrefabInfo _sphere = new PrefabInfo("sphere", "Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab", null);
