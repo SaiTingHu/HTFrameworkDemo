@@ -27,7 +27,7 @@ namespace HT.Framework.Demo
             }
             if (GUILayout.Button("UnPause"))
             {
-                Main.m_Audio.UnPauseBackgroundMusic();
+                Main.m_Audio.ResumeBackgroundMusic();
             }
             if (GUILayout.Button("Stop"))
             {
