@@ -20,7 +20,7 @@ namespace HT.Framework.Demo
         private void OnChooseRole()
         {
             Close();
-            Main.m_UI.OpenResidentUI<UIGame>();
+            Main.m_UI.OpenUI<UIGame>();
         }
 
         /// <summary>

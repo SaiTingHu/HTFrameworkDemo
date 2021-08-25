@@ -19,7 +19,7 @@ namespace HT.Framework.Demo
         private void OnLogin()
         {
             Close();
-            Main.m_UI.OpenResidentUI<UIChoose>();
+            Main.m_UI.OpenUI<UIChoose>();
         }
 
         /// <summary>

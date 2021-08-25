@@ -20,13 +20,13 @@ namespace HT.Framework.Demo
         private void OnLogout()
         {
             Close();
-            Main.m_UI.OpenResidentUI<UILogin>();
+            Main.m_UI.OpenUI<UILogin>();
         }
 
         private void OnBack()
         {
             Close();
-            Main.m_UI.OpenResidentUI<UIChoose>();
+            Main.m_UI.OpenUI<UIChoose>();
         }
 
         /// <summary>

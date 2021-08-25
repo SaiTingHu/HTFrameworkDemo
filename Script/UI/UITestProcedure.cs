@@ -13,7 +13,7 @@ namespace HT.Framework.Demo
         {
             base.OnEnter(lastProcedure);
 
-            Main.m_UI.OpenResidentUI<UILogin>();
+            Main.m_UI.OpenUI<UILogin>();
         }
     }
 }
