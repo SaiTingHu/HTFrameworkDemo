@@ -6,6 +6,15 @@ namespace HT.Framework.Demo
     [FiniteStateName("卫星/待机")]
     public class Idle : FiniteStateBase
     {
+        private SatelliteData _data;
+
+        public override void OnInit()
+        {
+            base.OnInit();
+
+            _data = StateMachine.CurrentData.Cast<SatelliteData>();
+        }
+
         /// <summary>
         /// 进入状态
         /// </summary>
@@ -15,6 +24,8 @@ namespace HT.Framework.Demo
             base.OnEnter(lastState);
 
             (StateMachine.Name + "进入待机模式！").Info();
+
+            _data.Data.State.Value = StateMachine.Name + "-待机模式";
         }
 
         /// <summary>

@@ -6,6 +6,15 @@ namespace HT.Framework.Demo
     [FiniteStateName("卫星/运行")]
     public class Run : FiniteStateBase
     {
+        private SatelliteData _data;
+
+        public override void OnInit()
+        {
+            base.OnInit();
+
+            _data = StateMachine.CurrentData.Cast<SatelliteData>();
+        }
+
         /// <summary>
         /// 进入状态
         /// </summary>
@@ -15,6 +24,8 @@ namespace HT.Framework.Demo
             base.OnEnter(lastState);
 
             (StateMachine.Name + "进入运转模式！").Info();
+
+            _data.Data.State.Value = StateMachine.Name + "-运转模式";
         }
 
         /// <summary>
