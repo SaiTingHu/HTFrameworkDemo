@@ -564,6 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939941773}
   - component: {fileID: 939941772}
+  - component: {fileID: 939941774}
   m_Layer: 0
   m_Name: "\u5929\u5BAB1\u53F7"
   m_TagString: Untagged
@@ -591,7 +592,7 @@ MonoBehaviour:
   - HT.Framework.Demo.Stop
   DefaultState: HT.Framework.Demo.Idle
   FinalState: HT.Framework.Demo.Stop
-  Args: {fileID: 1092652744}
+  Args: {fileID: 939941774}
   Name: "\u5929\u5BAB1\u53F7"
   Group: "\u536B\u661F"
 --- !u!4 &939941773
@@ -608,13 +609,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1092652744
+--- !u!114 &939941774
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 939941771}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06f06f457f876b3438e5cf1ae3d690ed, type: 3}
@@ -841,19 +842,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591276930}
   m_CullTransparentMesh: 0
---- !u!114 &1673590191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06f06f457f876b3438e5cf1ae3d690ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StateInputField: {fileID: 718876197}
 --- !u!1 &1718164652
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718164654}
   - component: {fileID: 1718164653}
+  - component: {fileID: 1718164655}
   m_Layer: 0
   m_Name: "\u5AE6\u5A251\u53F7"
   m_TagString: Untagged
@@ -891,7 +880,7 @@ MonoBehaviour:
   - HT.Framework.Demo.Stop
   DefaultState: HT.Framework.Demo.Idle
   FinalState: HT.Framework.Demo.Stop
-  Args: {fileID: 1673590191}
+  Args: {fileID: 1718164655}
   Name: "\u5AE6\u5A251\u53F7"
   Group: "\u536B\u661F"
 --- !u!4 &1718164654
@@ -908,6 +897,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718164655
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718164652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f06f457f876b3438e5cf1ae3d690ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StateInputField: {fileID: 718876197}
 --- !u!1001 &1844646936
 PrefabInstance:
   m_ObjectHideFlags: 0
