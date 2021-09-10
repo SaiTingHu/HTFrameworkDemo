@@ -236,6 +236,13 @@ MonoBehaviour:
   Name: CubeTem
   IsStepTarget: 0
   IsOpenPrompt: 1
+  IsOpenHighlight: 1
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  IsDoubleClickFocus: 0
 --- !u!1 &424906377
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +406,13 @@ MonoBehaviour:
   Name: 
   IsStepTarget: 0
   IsOpenPrompt: 0
+  IsOpenHighlight: 0
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  IsDoubleClickFocus: 0
 --- !u!23 &1037499764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -582,6 +596,13 @@ MonoBehaviour:
   Name: SphereTem
   IsStepTarget: 0
   IsOpenPrompt: 1
+  IsOpenHighlight: 1
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  IsDoubleClickFocus: 0
 --- !u!1001 &1807209401
 PrefabInstance:
   m_ObjectHideFlags: 0

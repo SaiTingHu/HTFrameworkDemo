@@ -42,7 +42,7 @@ namespace HT.Framework.Demo
         {
             base.OnDestroy();
 
-            Entity.RemoveClickListener();
+            Entity.RemoveAllClickListener();
         }
 
         /// <summary>

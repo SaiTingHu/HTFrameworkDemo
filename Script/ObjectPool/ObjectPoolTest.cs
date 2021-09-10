@@ -72,7 +72,7 @@ namespace HT.Framework.Demo
         private void OnCubeDespawn(GameObject obj)
         {
             obj.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            obj.RemoveClickListener();
+            obj.RemoveAllClickListener();
         }
 
         private void OnSphereSpawn(GameObject obj)
@@ -87,7 +87,7 @@ namespace HT.Framework.Demo
         private void OnSphereDespawn(GameObject obj)
         {
             obj.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            obj.RemoveClickListener();
+            obj.RemoveAllClickListener();
         }
     }
 }
