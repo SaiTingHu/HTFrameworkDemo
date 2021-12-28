@@ -8,7 +8,7 @@ namespace HT.Framework.Demo
     [UIResource("ui", "Assets/HTFrameworkDemo/Script/UI_DataBinding/DBTestPanel.prefab", "ResourcePath")]
     public class UIDBTestPanel : UILogicResident, IDataDriver<TestData>
     {
-        public TestData Data { get; set; }
+        public TestData Data { get; set; } = new TestData();
 
         [ObjectPath("InputFieldName"), DataBinding(nameof(TestData.Name))] private InputField _inputFieldName;
         [ObjectPath("TextName"), DataBinding(nameof(TestData.Name))] private Text _textName;
@@ -57,19 +57,19 @@ namespace HT.Framework.Demo
         /// <summary>
         /// 姓名
         /// </summary>
-        public BindableString Name;
+        public BindableString Name = new BindableString();
         /// <summary>
         /// 年龄
         /// </summary>
-        public BindableInt Age;
+        public BindableInt Age = new BindableInt();
         /// <summary>
         /// 力量
         /// </summary>
-        public BindableFloat Power;
+        public BindableFloat Power = new BindableFloat();
         /// <summary>
         /// 是否是神级角色
         /// </summary>
-        public BindableBool IsGod;
+        public BindableBool IsGod = new BindableBool();
         /// <summary>
         /// 种族
         /// </summary>
