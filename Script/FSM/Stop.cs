@@ -25,7 +25,14 @@ namespace HT.Framework.Demo
 
             (StateMachine.Name + "已停机！").Info();
 
-            _data.Data.State.Value = StateMachine.Name + "-已停机";
+            if (StateMachine.Name == "天宫1号")
+            {
+                Main.Current.GetDataModel<SatelliteModel>().TianGongState.Value = StateMachine.Name + "-已停机";
+            }
+            else
+            {
+                Main.Current.GetDataModel<SatelliteModel>().ChangEState.Value = StateMachine.Name + "-已停机";
+            }
         }
     }
 }

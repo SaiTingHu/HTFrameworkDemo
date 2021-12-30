@@ -25,7 +25,14 @@ namespace HT.Framework.Demo
 
             (StateMachine.Name + "进入待机模式！").Info();
 
-            _data.Data.State.Value = StateMachine.Name + "-待机模式";
+            if (StateMachine.Name == "天宫1号")
+            {
+                Main.Current.GetDataModel<SatelliteModel>().TianGongState.Value = StateMachine.Name + "-待机模式";
+            }
+            else
+            {
+                Main.Current.GetDataModel<SatelliteModel>().ChangEState.Value = StateMachine.Name + "-待机模式";
+            }
         }
 
         /// <summary>
