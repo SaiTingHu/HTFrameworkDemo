@@ -29,17 +29,17 @@ namespace HT.Framework.Demo
         /// <summary>
         /// 初始化模块
         /// </summary>
-        public override void OnInitialization()
+        public override void OnInit()
         {
-            base.OnInitialization();
+            base.OnInit();
         }
 
         /// <summary>
         /// 模块准备工作
         /// </summary>
-        public override void OnPreparatory()
+        public override void OnReady()
         {
-            base.OnPreparatory();
+            base.OnReady();
 
             IsRunning = false;
         }
@@ -47,9 +47,9 @@ namespace HT.Framework.Demo
         /// <summary>
         /// 刷新模块
         /// </summary>
-        public override void OnRefresh()
+        public override void OnUpdate()
         {
-            base.OnRefresh();
+            base.OnUpdate();
 
             if (_timer > 0)
             {
@@ -65,9 +65,9 @@ namespace HT.Framework.Demo
         /// <summary>
         /// 终结模块
         /// </summary>
-        public override void OnTermination()
+        public override void OnTerminate()
         {
-            base.OnTermination();
+            base.OnTerminate();
         }
 
         /// <summary>
