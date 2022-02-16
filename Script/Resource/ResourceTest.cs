@@ -24,8 +24,6 @@ namespace HT.Framework.Demo
 
         private void Start()
         {
-            //加载场景
-            Main.m_Resource.LoadScene(_scene);
             //加载三个预制体，他们关联的AB包会被自动加载
             Main.m_Resource.LoadPrefab(_cube, null, OnLoading, OnLoadDone);
             Main.m_Resource.LoadPrefab(_capsule, null, OnLoading, OnLoadDone);
@@ -37,6 +35,18 @@ namespace HT.Framework.Demo
             if (GUILayout.Button("全部替换为红色材质"))
             {
                 StartCoroutine(LoadRedMat());
+            }
+            if (GUILayout.Button("加载TestScene场景"))
+            {
+                Main.m_Resource.LoadScene(_scene);
+            }
+            if (GUILayout.Button("卸载TestScene场景"))
+            {
+                Main.m_Resource.UnLoadScene(_scene);
+            }
+            if (GUILayout.Button("卸载所有场景"))
+            {
+                Main.m_Resource.UnLoadAllScene();
             }
         }
         
