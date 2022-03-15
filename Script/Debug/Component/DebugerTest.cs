@@ -14,8 +14,9 @@ namespace HT.Framework.Demo
         {
             GUILayout.BeginHorizontal();
             _target.Value = GUILayout.HorizontalSlider(_target.Value, 0f, 1f);
-            _target.Value = FloatField(_target.Value, GUILayout.Width(60));
             GUILayout.EndHorizontal();
+
+            _target.Value = FloatField("Value", _target.Value);
 
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Show Value"))
