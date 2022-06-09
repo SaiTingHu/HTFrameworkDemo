@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5c5b371e9d6cb49b59fe7173974b8b, type: 3}
+  m_Name: Steps
+  m_EditorClassIdentifier: 
+  Content:
+  - GUID: Step1
+    EnterAnchor: {x: 121, y: 634}
+    ElapseTime: 1
+    Instant: 0
+    Target: {fileID: 0}
+    TargetGUID: d3b9570b-487c-47fa-8fe1-c6c103ba62ba
+    TargetPath: Cube
+    Name: "\u70B9\u51FB\u6B63\u65B9\u4F53"
+    Trigger: 0
+    Prompt: "\u70B9\u51FB\u6B63\u65B9\u4F53\u3002"
+    IsDisplayPrompt: 0
+    Ancillary: 
+    BestView: {x: 270, y: 43, z: 4.6}
+    ViewOffset: {x: 0, y: 0, z: 0}
+    BestPos: {x: 0, y: 0, z: 0}
+    InitialMode: 0
+    IsEnable: 1
+    Helper: <None>
+    Parameters: []
+    Operations:
+    - GUID: 4d606855-519b-4e7c-a129-3266612e384f
+      Anchor: {x: 449, y: 532}
+      ElapseTime: 0.5
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: d3b9570b-487c-47fa-8fe1-c6c103ba62ba
+      TargetPath: Cube
+      Name: "\u7F29\u653E0"
+      OperationType: 2
+      Vector3Value: {x: 0, y: 0, z: 0}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 22db902e-3034-47f8-9df1-88c69ece0487
+      Anchor: {x: 456, y: 660}
+      ElapseTime: 0.5
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: d3b9570b-487c-47fa-8fe1-c6c103ba62ba
+      TargetPath: Cube
+      Name: "\u65CB\u8F6C0"
+      OperationType: 1
+      Vector3Value: {x: 0, y: 720, z: 0}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 1
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    Wireds:
+    - Left: -1
+      Right: 0
+    - Left: -1
+      Right: 1
+  - GUID: Step2
+    EnterAnchor: {x: 102, y: 714}
+    ElapseTime: 1
+    Instant: 0
+    Target: {fileID: 0}
+    TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+    TargetPath: Sphere
+    Name: "\u70B9\u51FB\u7403\u4F53"
+    Trigger: 0
+    Prompt: "\u70B9\u51FB\u7403\u4F53\u3002"
+    IsDisplayPrompt: 0
+    Ancillary: 
+    BestView: {x: 270, y: 43, z: 4.6}
+    ViewOffset: {x: 0, y: 0, z: 0}
+    BestPos: {x: 0, y: 0, z: 0}
+    InitialMode: 0
+    IsEnable: 1
+    Helper: <None>
+    Parameters: []
+    Operations:
+    - GUID: ca586b38-7a4a-4716-baf0-797e6d26e19a
+      Anchor: {x: 346, y: 583}
+      ElapseTime: 0.2
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+      TargetPath: Sphere
+      Name: "\u79FB\u52A80"
+      OperationType: 0
+      Vector3Value: {x: -2.57, y: 0, z: 4.53}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: ac871886-774b-40c4-83c3-a4e69a331d4b
+      Anchor: {x: 601, y: 600}
+      ElapseTime: 0.2
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+      TargetPath: Sphere
+      Name: "\u79FB\u52A801"
+      OperationType: 0
+      Vector3Value: {x: -2.51, y: 0, z: 1.13}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 0068deb5-cbaf-4f45-adfe-f2bba3d38011
+      Anchor: {x: 814, y: 656}
+      ElapseTime: 0.2
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+      TargetPath: Sphere
+      Name: "\u79FB\u52A8012"
+      OperationType: 0
+      Vector3Value: {x: -6.86, y: 0, z: 3.51}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 30bc83b0-d816-4f27-b36c-05537237f020
+      Anchor: {x: 1050, y: 689}
+      ElapseTime: 0.2
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+      TargetPath: Sphere
+      Name: "\u79FB\u52A80123"
+      OperationType: 0
+      Vector3Value: {x: -9.81, y: 0, z: -4.21}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 2a712127-a9bf-49a1-abe6-b68bb1152186
+      Anchor: {x: 1297, y: 711}
+      ElapseTime: 1
+      Instant: 1
+      Target: {fileID: 0}
+      TargetGUID: e89a418c-bf19-4394-8a65-b97f5acc857d
+      TargetPath: Sphere
+      Name: "\u6FC0\u6D3B0"
+      OperationType: 5
+      Vector3Value: {x: 0, y: 0, z: 0}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    Wireds:
+    - Left: -1
+      Right: 0
+    - Left: 0
+      Right: 1
+    - Left: 1
+      Right: 2
+    - Left: 2
+      Right: 3
+    - Left: 3
+      Right: 4
+  - GUID: Step3
+    EnterAnchor: {x: 51, y: 678}
+    ElapseTime: 3
+    Instant: 0
+    Target: {fileID: 0}
+    TargetGUID: 4860653a-0534-4d46-a309-52569fcbf27f
+    TargetPath: Capsule
+    Name: "\u70B9\u51FB\u80F6\u56CA\u4F53"
+    Trigger: 0
+    Prompt: "\u70B9\u51FB\u80F6\u56CA\u4F53\u3002"
+    IsDisplayPrompt: 0
+    Ancillary: 
+    BestView: {x: 270, y: 43, z: 4.6}
+    ViewOffset: {x: 0, y: 0, z: 0}
+    BestPos: {x: 0, y: 0, z: 0}
+    InitialMode: 0
+    IsEnable: 1
+    Helper: <None>
+    Parameters: []
+    Operations:
+    - GUID: 64d8717c-78dd-46d0-8d2d-b91f2994d15c
+      Anchor: {x: 308, y: 594}
+      ElapseTime: 1
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: 4860653a-0534-4d46-a309-52569fcbf27f
+      TargetPath: Capsule
+      Name: "\u7F29\u653E0"
+      OperationType: 2
+      Vector3Value: {x: 1, y: 5.9, z: 1}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: ae0400dd-1630-4967-87c3-1a9dc12e9987
+      Anchor: {x: 638, y: 482}
+      ElapseTime: 1
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: 4860653a-0534-4d46-a309-52569fcbf27f
+      TargetPath: Capsule
+      Name: "\u65CB\u8F6C0"
+      OperationType: 1
+      Vector3Value: {x: 1080, y: 0, z: 0}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 1
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 131b8360-c12a-47b0-853a-28f34984ea3d
+      Anchor: {x: 641, y: 587}
+      ElapseTime: 1
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: 4860653a-0534-4d46-a309-52569fcbf27f
+      TargetPath: Capsule
+      Name: "\u79FB\u52A80"
+      OperationType: 0
+      Vector3Value: {x: -12.31, y: -0.39494157, z: 5.46}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    - GUID: 232743b4-d33b-43ab-bdd1-f9a5141abadf
+      Anchor: {x: 633, y: 689}
+      ElapseTime: 1
+      Instant: 0
+      Target: {fileID: 0}
+      TargetGUID: 4860653a-0534-4d46-a309-52569fcbf27f
+      TargetPath: Capsule
+      Name: "\u7F29\u653E03"
+      OperationType: 2
+      Vector3Value: {x: 0, y: 0, z: 0}
+      Vector2Value: {x: 0, y: 0}
+      ColorValue: {r: 1, g: 1, b: 1, a: 1}
+      IntValue: 0
+      FloatValue: 0
+      StringValue: <None>
+      BoolValue: 0
+      AnimationEase: 1
+      Vector3Value2: {x: 0, y: 0, z: 0}
+      StringValue2: <None>
+      BoolValue2: 0
+      Vector3Value3: {x: 0, y: 0, z: 0}
+    Wireds:
+    - Left: -1
+      Right: 0
+    - Left: 0
+      Right: 1
+    - Left: 0
+      Right: 2
+    - Left: 0
+      Right: 3
+  StepIDSign: 5
+  StepIDName: Step
