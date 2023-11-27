@@ -81,7 +81,7 @@ MonoBehaviour:
     - Left: -1
       Right: 1
   - GUID: Step2
-    EnterAnchor: {x: 102, y: 714}
+    EnterAnchor: {x: 10, y: 644}
     ElapseTime: 1
     Instant: 0
     Target: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
     Parameters: []
     Operations:
     - GUID: ca586b38-7a4a-4716-baf0-797e6d26e19a
-      Anchor: {x: 346, y: 583}
+      Anchor: {x: 254, y: 513}
       ElapseTime: 0.2
       Instant: 0
       Target: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: ac871886-774b-40c4-83c3-a4e69a331d4b
-      Anchor: {x: 601, y: 600}
+      Anchor: {x: 509, y: 530}
       ElapseTime: 0.2
       Instant: 0
       Target: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: 0068deb5-cbaf-4f45-adfe-f2bba3d38011
-      Anchor: {x: 814, y: 656}
+      Anchor: {x: 722, y: 586}
       ElapseTime: 0.2
       Instant: 0
       Target: {fileID: 0}
@@ -164,7 +164,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: 30bc83b0-d816-4f27-b36c-05537237f020
-      Anchor: {x: 1050, y: 689}
+      Anchor: {x: 958, y: 619}
       ElapseTime: 0.2
       Instant: 0
       Target: {fileID: 0}
@@ -185,7 +185,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: 2a712127-a9bf-49a1-abe6-b68bb1152186
-      Anchor: {x: 1297, y: 711}
+      Anchor: {x: 1205, y: 641}
       ElapseTime: 1
       Instant: 1
       Target: {fileID: 0}
@@ -217,7 +217,7 @@ MonoBehaviour:
     - Left: 3
       Right: 4
   - GUID: Step3
-    EnterAnchor: {x: 51, y: 678}
+    EnterAnchor: {x: 125, y: 615}
     ElapseTime: 3
     Instant: 0
     Target: {fileID: 0}
@@ -237,7 +237,7 @@ MonoBehaviour:
     Parameters: []
     Operations:
     - GUID: 64d8717c-78dd-46d0-8d2d-b91f2994d15c
-      Anchor: {x: 308, y: 594}
+      Anchor: {x: 382, y: 531}
       ElapseTime: 1
       Instant: 0
       Target: {fileID: 0}
@@ -258,7 +258,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: ae0400dd-1630-4967-87c3-1a9dc12e9987
-      Anchor: {x: 638, y: 482}
+      Anchor: {x: 712, y: 419}
       ElapseTime: 1
       Instant: 0
       Target: {fileID: 0}
@@ -279,7 +279,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: 131b8360-c12a-47b0-853a-28f34984ea3d
-      Anchor: {x: 641, y: 587}
+      Anchor: {x: 715, y: 524}
       ElapseTime: 1
       Instant: 0
       Target: {fileID: 0}
@@ -300,7 +300,7 @@ MonoBehaviour:
       BoolValue2: 0
       Vector3Value3: {x: 0, y: 0, z: 0}
     - GUID: 232743b4-d33b-43ab-bdd1-f9a5141abadf
-      Anchor: {x: 633, y: 689}
+      Anchor: {x: 707, y: 626}
       ElapseTime: 1
       Instant: 0
       Target: {fileID: 0}
