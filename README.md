@@ -4,7 +4,7 @@ HTFramework的Demo模块，必须依赖于HTFramework主框架使用（注意：
 
 ## 环境
 
-- Unity版本：2021.3.15。
+- Unity版本：2022.3.17。
 
 - .NET API版本：.NET Framework。
 
