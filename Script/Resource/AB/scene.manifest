@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 381156480
+CRC: 3016586246
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 79374fcd8bbfb4c79f801b5f63a70272
+    Hash: e3465777ab1990a718b2d592ead319ca
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7d2b4c4ce79375c630d83582e3fc49ec
+    Hash: 000ccbdc460d17eae80ba0fd426a07b4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e3465777ab1990a718b2d592ead319ca
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,8 +40,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 157
   Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
 - Class: 258
   Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/TestScene.unity
 Dependencies: []

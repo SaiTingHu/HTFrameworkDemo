@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 295502593
+CRC: 307117746
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f9e3e69c4fb472c48ad152caeba2c739
+    Hash: eadbb12e774e4b0ddda68a927add13fe
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 60fef5ad0a4038542d2122e46dcc34a2
+    Hash: 173c92049fa4f46ef09f166b73c2eb70
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eadbb12e774e4b0ddda68a927add13fe
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,7 +26,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Sphere.prefab
 Dependencies:
-- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/redmat
+- E:/Hutao/GitBackups/HTFramework/AssetBundles/StandaloneWindows/redmat

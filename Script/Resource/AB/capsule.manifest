@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3339787208
+CRC: 3452921388
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ebeeff9eb2a0b5f1da70072096e85999
+    Hash: 6b2bc8362bef9498d1d0b377d0f4d603
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b3ba791bb7d378b5189369ad535d14a7
+    Hash: cdffbf2a50eab02917f0413328ad945f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6b2bc8362bef9498d1d0b377d0f4d603
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,7 +26,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Capsule.prefab
 Dependencies:
-- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/bluemat
+- E:/Hutao/GitBackups/HTFramework/AssetBundles/StandaloneWindows/bluemat

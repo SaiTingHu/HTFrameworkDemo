@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1934048627
+CRC: 2807734457
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 030de488c625eeb5cb271f675562f8be
+    Hash: 8bc5d4ee61957eb04378127c7eebf8d9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 43917c7e82ed3ae0a408b3ea37ec80f7
+    Hash: 48f9e47804cc6149eb45c38c55466448
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8bc5d4ee61957eb04378127c7eebf8d9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,7 +26,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Cube.prefab
 Dependencies:
-- F:/GitBackups/HTFramework/AssetBundles/StandaloneWindows/greenmat
+- E:/Hutao/GitBackups/HTFramework/AssetBundles/StandaloneWindows/greenmat

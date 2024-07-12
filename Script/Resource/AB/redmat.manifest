@@ -1,18 +1,22 @@
 ManifestFileVersion: 0
-CRC: 3714024232
+CRC: 4052365280
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 70f816a3ebd3988edf61d94ecd6c6036
+    Hash: 4ed9b312b1d2c078308e10a9afc57857
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 51a16e16d5113854a16091e54ae5bb0d
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4ed9b312b1d2c078308e10a9afc57857
 HashAppended: 0
 ClassTypes:
 - Class: 21
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/HTFrameworkDemo/Script/Resource/Red.mat
 Dependencies: []
