@@ -271,6 +271,9 @@ MonoBehaviour:
   OnClickEmbedTexture:
     m_PersistentCalls:
       m_Calls: []
+  OnClickTable:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!222 &880308263
 CanvasRenderer:
   m_ObjectHideFlags: 0

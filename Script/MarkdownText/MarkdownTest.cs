@@ -14,6 +14,14 @@ namespace HT.Framework.Demo
             {
                 Application.OpenURL(url);
             });
+            MT.OnClickEmbedTexture.AddListener((sprite) =>
+            {
+                Log.Info("点击了图像！");
+            });
+            MT.OnClickTable.AddListener((table) =>
+            {
+                Log.Info("点击了表格！");
+            });
         }
     }
 }
