@@ -190,6 +190,30 @@ PrefabInstance:
       propertyPath: AssetBundleManifestName
       value: test
       objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: IsEnableCameraUI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: IsEnableOverlayUI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: DefineUINames.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: DefineUIEntitys.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: DefineUINames.Array.data[0]
+      value: HT.Framework.Demo.UIGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046948290896454, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: DefineUIEntitys.Array.data[0]
+      value: 
+      objectReference: {fileID: 5952302676831355837, guid: a030222fb2b8d66409bee2787343a02d, type: 3}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: DefaultProcedure
       value: HT.Framework.Demo.UITestProcedure

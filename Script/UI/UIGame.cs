@@ -38,14 +38,6 @@ namespace HT.Framework.Demo
         }
 
         /// <summary>
-        /// 置顶UI
-        /// </summary>
-        public override void OnPlaceTop()
-        {
-            base.OnPlaceTop();
-        }
-
-        /// <summary>
         /// 关闭UI
         /// </summary>
         public override void OnClose()
